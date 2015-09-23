@@ -8,7 +8,7 @@ comments: false
 ads: false
 share: true
 image:
-  teaser: /popularmovies/MovieGridView.png
+  teaser: /images/popularmovies/MovieGridView.png
 ---
 
 Popular Movies is an android application that displays popular and highest rated movies. It also allows a
@@ -38,10 +38,10 @@ Screenshots
 Obtained using Genymotion emulator Galaxy S4 and Nexus 10 tablet
 
 ![FirstView](/images/popularmovies/MovieGridView.PNG)
-![SecondViewScroll](/images/popularmovies/ScrollMovieGridView.png)
-![SortByOptions](/images/popularmovies/SortByOptions.png)
+![SecondViewScroll](/images/popularmovies/ScrollMovieGridView.PNG)
+![SortByOptions](/images/popularmovies/SortByOptions.PNG)
 
-![MovieDetailDesc](/images/popularmovies/MovieDetailDesc.png)
+![MovieDetailDesc](/images/popularmovies/MovieDetailDesc.PNG)
 ![MoreMovieDetail](/images/popularmovies/ViewMovieDetails.PNG)
 ![FavoriteAdded](/images/popularmovies/AddToFavorites.PNG)
 
