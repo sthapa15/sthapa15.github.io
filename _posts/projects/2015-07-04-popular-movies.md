@@ -8,7 +8,7 @@ comments: false
 ads: false
 share: true
 image:
-  teaser: /images/popularmovies/MovieGridView.png
+  teaser: /images/popularmovies/MovieGridView.PNG
 ---
 
 Popular Movies is an android application that displays popular and highest rated movies. It also allows a
