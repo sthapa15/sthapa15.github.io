@@ -1,0 +1,15 @@
+
+<article class="tile" itemscope itemtype="http://schema.org/Article">
+<style>
+	h2{font-style: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif}
+</style>
+	<a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" class="post-teaser">{% if post.image.teaser %}
+
+		<div style="width:250px;height:250px;overflow:hidden">
+			<img src="{{ site.url }}/images/{{ post.image.teaser }}" alt="teaser" itemprop="image"> 
+		</div>
+
+
+			{% else %}<img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">{% endif %}</a>
+			<h2 class="post-title" align="center" itemprop="name"><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+</article><!-- /.tile -->

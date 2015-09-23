@@ -1,0 +1,17 @@
+---
+layout: article
+title: "Filler Two"
+categories: blog
+modified: 2015-09-15T11:38:41-04:00
+tags: [training]
+comments: false
+ads: false
+share: true
+image:
+  teaser: mama.jpg
+---
+
+It's been almost 5 months. The picture was taken over a year ago. Who knew it could captue his current feelings now.
+
+
+
