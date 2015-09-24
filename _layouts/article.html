@@ -4,6 +4,12 @@ layout: default
 
 <div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+	 <style>
+  h1,h2,h3,h4,h5,h6{font-family: 'Avant Garde', Avantgarde, 
+  'Century Gothic', CenturyGothic, AppleGothic, sans-serif}
+  p{text-align: left; font-family: 'Avant Garde', Avantgarde,
+   'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-size: 10} 
+  </style>
 		{% if page.image.feature %}
 		<div class="page-feature">
 			<div class="page-image">
@@ -19,7 +25,6 @@ layout: default
 		<div class="inner-wrap">
 			<div id="content" class="page-content" itemprop="articleBody">
 				{{ content }}
-				<hr />
 				<footer class="page-footer">
 					{% if page.categories %}{% include page-author.html %}{% endif %}
 					{% if page.share != false %}{% include share-this.html %}{% endif %}

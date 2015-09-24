@@ -100,7 +100,7 @@
       }
       font-family: $base-font;
       text-transform: uppercase;
-      font-weight: 400;
+      font-weight: 300;
     }
   }
   ul {
@@ -148,7 +148,7 @@
       margin-left: 60px;
       font-family: $alt-font;
       @include font-size(24,no);
-      font-weight: 700;
+      font-weight: 300;
       @include media($small) {
         margin-left: 170px;
         @include font-size(32,no);

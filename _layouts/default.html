@@ -35,13 +35,17 @@
     <![endif]-->
 
   </head>
-
   <body id="js-body">
+  
+
     {% include browser-upgrade.html %}
+    <div style="background-image:url({{ site.url }}/images/mee.jpg)">
     {% include header.html %}
+    </div>
     {% include navigation-sliding.html %} 
 
-    <div id="page-wrapper">
+
+    <div id="page-wrapper" class="page-title">
       {{ content }}
       {% include footer.html %}
     </div>

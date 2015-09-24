@@ -28,8 +28,8 @@
 	text-decoration: none;
 	color: $black;
 	font-family: $alt-font;
-	font-weight: 700;
-	@include font-size(20,no);
+	font-weight: 300;
+	@include font-size(36,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
@@ -102,8 +102,8 @@
 	}
 	li {
 		a {
-			font-weight: 700;
-			@include font-size(16,no);
+			font-weight: 300;
+			@include font-size(18,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: $black;
 			text-transform: uppercase;
@@ -115,7 +115,7 @@
 
 .bottom-menu {
 	@include clearfix;
-	font-weight: 700;
+	font-weight: 300;
 	a {
 		color: lighten($black,60);
 	}
@@ -145,11 +145,13 @@
 #main {
 	.inner-wrap {
 		@include media($medium) {
-			@include span-columns(9);
+			@include span-columns(10);
 		}
 	}
 	.page-title {
 		@include fill-parent;
+		font-weight: 100;
+
 	}
 
 	@at-root {
@@ -159,6 +161,7 @@
 			> p {
 				&:first-child {
 					@include font-size(20,yes,30);
+					font-weight: 350;
 				}
 			}
 			// cleaner underlines for links
@@ -198,7 +201,7 @@
 			}
 		}
 	}
-  /* advertisements */
+  /* advertisements 
 	.ads {
 		position: relative;
 		text-align: center;
@@ -225,8 +228,8 @@
 		ins {
 			border-width: 0;
 		}
-	}
-}
+	} */
+} 
 // page lead
 .page-lead {
 	background-position: center top;
@@ -247,7 +250,8 @@
 		padding: 3em;
 	}
 	h1 {
-		@include font-size(48);
+		@include font-size(45);
+		font-weight: 300;
 		@include media($medium) {
 			@include font-size(60);
 		}
@@ -256,7 +260,19 @@
 		}
 	}
 	h2 {
-		@include font-size(20);
+		@include font-size(45);
+		font-weight: 300;
+		@include media($medium) {
+			@include font-size(24);
+		}
+		@include media($large) {
+			@include font-size(32);
+		}
+	}
+
+	h3 {
+		@include font-size(45);
+		font-weight: 300;
 		@include media($medium) {
 			@include font-size(24);
 		}
@@ -265,12 +281,14 @@
 		}
 	}
 }
+
 // page header
 .page-feature {
 	@include fill-parent;
 	// expand image to cover full width of header
 	img {
 		width: 100%;
+		length: 50%;
 	}
 }
 // make image flush with edges on small screens

@@ -2,10 +2,14 @@
 
 <html>
   <head>
-  <style>
-  h2,h1{text-align: center; font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif}
 
-  p{text-align: center; font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif} </style>
+  <style>
+  h2,h1{text-align: center; font-family: 'Avant Garde', Avantgarde, 
+  'Century Gothic', CenturyGothic, AppleGothic, sans-serif; font-weight: 300}
+  p{text-align: center; font-family: 'Avant Garde', Avantgarde,
+   'Century Gothic', CenturyGothic, AppleGothic, sans-serif} 
+  </style>
+
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} • {% endif %}{{ site.title }}</title>
     {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
@@ -45,11 +49,16 @@
     {% include navigation-sliding.html %}
 
     {% if page.image.feature %}
-    <div class="page-lead" style="background-image:url({{ site.url }}/images/mountains.jpg)">
-      <div class="wrap page-lead-content">
+    <div class="page-lead" style="background-image:url({{ site.url }}/images/mee.jpg)">
+      <div class="wrap page-lead-content text-color title-super">
+
+        <div class = "text-bold">
         <h1>Hello, </h1>
+        </div>
         <h2>I'm Sukriti.</h2>
+        <div class = "text-color2 text-bold">
         <h3>Welcome to my world.</h3>
+        </div>
             <a href="{{ site.url }}/projects/" class="btn-inverse">Work</a> &nbsp;&nbsp; <a href="{{ site.url }}/blog/" class="btn-inverse">Journal</a> 
       </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
@@ -67,27 +76,27 @@
               <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-title">Learn</h2>
+  <h2 class="text-thin text-tile">Live</h2>
   <img src="http://placehold.it/300x200" alt="Mountain View" style="width:300px;height:200px;">
-  <p class="post-excerpt">Learning is fun. That's why I learn but only about things I like.</p>
+  <p class="post-excerpt">I live the best version of life that my mind can create.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Do</h2>
+  <h2 class="text-thin text-tile">Love</h2>
   <img src="http://placehold.it/300x200" alt="Mountain View" style="width:300px;height:200px;">
-  <p class="post-excerpt">Learning without doing is like coffee without the cream. Doing is the only way to apply your learning.</p>
+  <p class="post-excerpt">I live due to my love for my friends and family. In living, I find love in anything I do, whether it is programming or reading a novel. </p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Have Passion</h2>
+  <h2 class="text-thin text-tile">Learn</h2>
   <img src="http://placehold.it/300x200" alt="Mountain View" style="width:300px;height:200px;">
-  <p class="post-excerpt">Do what you like to do within reason.</p>
+  <p class="post-excerpt">I live to love learning. I learn everyday, from those younger and older than me. Learning has no limit.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Show</h2>
+  <h2 class="text-thin text-tile">Create</h2>
   <img src="http://placehold.it/300x200" alt="Mountain View" style="width:300px;height:200px;">
-  <p class="post-excerpt">Show your work to others, give and receive critique. Spread your knowledge.</p>
+  <p class="post-excerpt">I live, love, and learn to create magic with my words and projects with my knowledge. </p>
 </div><!-- /.tile -->
 
 </div>

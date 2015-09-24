@@ -12,7 +12,8 @@ image:
 ---
 
 Popular Movies is an android application that displays popular and highest rated movies. It also allows a
-user to keep a list of favorite movies locally using a content provider. It is also optimized for both phone and tablet experience using a two pane display.
+user to keep a list of favorite movies locally using a content provider. It is also optimized for both 
+phone and tablet experience using a two pane display.
 
 Features
 ------------------
@@ -46,4 +47,3 @@ Obtained using Genymotion emulator Galaxy S4 and Nexus 10 tablet
 ![FavoriteAdded](/images/popularmovies/AddToFavorites.PNG)
 
 ![TabletView](/images/popularmovies/TabletView.PNG)
-

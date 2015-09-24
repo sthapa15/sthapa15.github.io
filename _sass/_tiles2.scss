@@ -18,9 +18,16 @@
   }
   .post-title {
     @include font-size(18,no);
+    font-weight: 350;
+  }
+
+  .post-title2 {
+    @include font-size(16,no);
+    color: ($pink, 25);
   }
   .post-excerpt {
-    @include font-size(16);
+    @include font-size(14);
+    font-weight: 350;
   }
 
   .text-thin {
@@ -34,7 +41,7 @@
       content: '';
       position: absolute;
       width: 250px;
-      height: 150px;
+      height: 155px;
       top: 0;
       left: 0;
       background: rgba($base-color,0);
