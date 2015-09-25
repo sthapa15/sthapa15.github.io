@@ -13,21 +13,22 @@
     @include omega(4n);
   }
   .entry-date {
-    @include font-size(16,no);
+    @include font-size(18,no);
     color: lighten($text-color,25);
   }
   .post-title {
     @include font-size(18,no);
-    font-weight: 350;
+    font-weight: 400;
   }
 
   .post-title2 {
-    @include font-size(16,no);
+    @include font-size(18,no);
     color: ($pink, 25);
   }
   .post-excerpt {
-    @include font-size(14);
+    @include font-size(16);
     font-weight: 350;
+    font-family: $alt-font;
   }
 
   .text-thin {
@@ -40,8 +41,8 @@
     &:after {
       content: '';
       position: absolute;
-      width: 250px;
-      height: 155px;
+      width: 240px;
+      height: 148px;
       top: 0;
       left: 0;
       background: rgba($base-color,0);

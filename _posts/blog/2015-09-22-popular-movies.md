@@ -12,9 +12,9 @@ image:
 ---
 
 
-<p> Oh boy. This website went over a million iterations. I'm still not entirely happy with it and will probably add more features as time goes on.
+Oh boy. This website went over a million iterations. I'm still not entirely happy with it and will probably add more features as time goes on.
 I have this way of thinking where I need things to be symmetrical or else it completely messes with my mind. Is that what OCD is? If it is, then 
-I most likely have it. </p>
+I most likely have it. 
 
 
 

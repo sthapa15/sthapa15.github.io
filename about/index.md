@@ -5,7 +5,7 @@ date: 2015-04-08T09:44:20-04:00
 modified: 2015-04-08T14:56:44-04:00
 excerpt: "Learn more about me."
 image:
-  feature: 
+  feature: aboutbanner.PNG
   teaser:
   thumb:
 share: false
@@ -13,9 +13,12 @@ ads: false
 ---
 
 
-Hello!
+####Hello! I'm Sukriti. 
 
-I'm Sukriti 
 
-I am a recent graduate from the University of Virginia where I majored in Computer Engineering.
 
+
+I am a recent graduate from the University of Virginia where I majored in Computer Engineering.  
+
+
+   

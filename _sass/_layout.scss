@@ -145,7 +145,7 @@
 #main {
 	.inner-wrap {
 		@include media($medium) {
-			@include span-columns(10);
+			@include span-columns(12);
 		}
 	}
 	.page-title {
@@ -160,7 +160,7 @@
 			// larger font for intro paragraph
 			> p {
 				&:first-child {
-					@include font-size(20,yes,30);
+					@include font-size(17,yes,30);
 					font-weight: 350;
 				}
 			}
@@ -185,7 +185,7 @@
 			}
 			.page-meta {
 				p{
-					@include font-size(14,no);
+					@include font-size(15,no);
 					font-family: $alt-font;
 					color: lighten($black,60);
 				}
@@ -250,34 +250,40 @@
 		padding: 3em;
 	}
 	h1 {
-		@include font-size(45);
+		@include font-size(30);
 		font-weight: 300;
 		@include media($medium) {
 			@include font-size(60);
+			font-weight: 300;
 		}
 		@include media($large) {
 			@include font-size(72);
+			font-weight: 300;
 		}
 	}
 	h2 {
-		@include font-size(45);
+		@include font-size(30);
 		font-weight: 300;
 		@include media($medium) {
 			@include font-size(24);
+			font-weight: 300;
 		}
 		@include media($large) {
 			@include font-size(32);
+			font-weight: 300;
 		}
 	}
 
 	h3 {
-		@include font-size(45);
+		@include font-size(30);
 		font-weight: 300;
 		@include media($medium) {
 			@include font-size(24);
+			font-weight: 300;
 		}
 		@include media($large) {
 			@include font-size(32);
+			font-weight: 300;
 		}
 	}
 }
@@ -341,11 +347,11 @@
 	min-height: 80px; //mirrors avatar height
 }
 .author-name {
-	@include font-size(20,no);
+	@include font-size(16,no);
 }
 .author-bio {
 	margin-top: 0;
-	@include font-size(16);
+	@include font-size(14);
 }
 
 /*
