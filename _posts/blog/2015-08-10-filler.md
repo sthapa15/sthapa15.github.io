@@ -8,7 +8,7 @@ comments: false
 ads: false
 share: true
 image:
-  teaser: create.PNG
+  teaser: create.png
 ---
 
 test test test test test 
