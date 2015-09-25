@@ -44,5 +44,5 @@ The file is under values resources folder. </p>
 Obtained using Genymotion emulator Galaxy S4 and Nexus 10 tablet
 
 ![MoreMovieDetail](/images/popularmovies/ViewMovieDetails.PNG)
-![FavoriteAdded](/images/popularmovies/AddToFavs.PNG)
+![FavoriteAdded](/images/popularmovies/AddToFavs.png)
 ![SecondViewScroll](/images/popularmovies/ScrollMovieGridView.PNG)
