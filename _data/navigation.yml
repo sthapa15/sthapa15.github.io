@@ -8,9 +8,9 @@
 - title: Portfolio
   url: /projects/
   excerpt: 
-  image: mountain.jpg
+  image: /interactiveresume/resumeteaser.PNG
 
 - title: Blog
   url: /blog/
   excerpt: 
-  image: mountain.jpg
+  image: graduation.jpg

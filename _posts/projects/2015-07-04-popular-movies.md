@@ -12,9 +12,7 @@ image:
 ---
 
 ###Overview
-Popular Movies is an android application that displays popular and highest rated movies.  
-It also allows a user to keep a list of favorite movies locally using a content provider. It is also  
-optimized for both phone and tablet experience using a two pane display.  
+Popular Movies is an android application that displays popular and highest rated movies. It also allows a user to keep a list of favorite movies locally using a content provider. It is optimized for both phone and tablet experience using a two pane display. View the source code on github: [Popular Movies](https://github.com/sthapa15/Popular-Movies)
 
 ![FirstView](/images/popularmovies/MovieGridView.PNG)
 ![MovieDetailDesc](/images/popularmovies/MovieDetailDesc.PNG)
@@ -23,8 +21,8 @@ optimized for both phone and tablet experience using a two pane display.
 Features
 ------------------
 + Display/discover movies sorted by most popular, highest rated, or favorites
-+ Add movie to favorites/Remove from favorites
-+ View favorite movies even when offline
++ Add movie to favorites/Remove from favorites by tapping a button (star)
++ View favorite movies even when offline (favorited movies are maintained locally and does not require an API request)
 + View details of each displayed movie: rating, release date, overview, reviews
 + Watch movie trailer from available trailers
 + Send trailer link to friends 
@@ -32,6 +30,7 @@ Features
 Libraries used:
 ---------------------
 + [Picasso](http://square.github.io/picasso/): for image downloading and caching 
+
 
 ##Using the Source
 
