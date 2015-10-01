@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The problem statement here was pretty simple. Using Python, we were tasked with creating our own rudimentary version of DropBox. The problem can be broken down into two separate sections, the client side which has to recognize file changes and "ping" the server accordingly and the server side which has to take into account these changes and update the other synchronized users accordingly. For the client side, we used the Python framework WatchDog in order to monitor files. WatchDog is extremely easy to use, providing you the ability to trigger events based on the file activity that happened (for example, you can have a different event triggered if a file is created versus deleted). On the sever side, we built a Flask web server (again, very easy to use) and utilized its file transfer libraries in order to retrieve the updated files. At a basic level, we had each triggered WatchDog event hit a different endpoint of the Flask webserver so that the server could act accordingly. We also had another thread working in the background monitoring the server in case changes happen on another client's end (so that all machines that are accessing the server are updated). The Flask server was run on an AWS micro-instance.
+Although I worked in a group of three other students on this project, I can confidently say that I did 95% of the coding for this project (as highlighted by this graph). Even though it wasn't the most ideal situation, especially during crunch time at the end of the semester, I really learned a lot from the project as a whole. From my experience building this OneDir system from back to front, I got comfortable picking up new libraries and frameworks that I knew nothing about and figuring out how to use them. I got really good with my debugging, google searching, and just general understanding of what to look for when figuring out new things.

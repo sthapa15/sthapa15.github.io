@@ -29,11 +29,11 @@ Outside of programming and learning new skills, I have a love for writing lyrica
 **Fun fact**: I got bit by a monkey in Nepal when I was 4. It wasn't fun, but sadly I don't have a scar anymore to show off :(. 
 
 Feel free to connect with me!
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn-social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn-social google"><i class="fa fa-google" aria-hidden="true"></i></a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn-social pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://twitter.com/sukritithapa" class="btn-social twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/thapasukriti" class="btn-social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://plus.google.com/+SukritiThapa" class="btn-social google"><i class="fa fa-google" aria-hidden="true"></i></a>
+      <a href="https://www.pinterest.com/sthaps/" class="btn-social pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+       <a href="https://instagram.com/sukimonks/" class="btn-social instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 
 
    

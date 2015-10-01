@@ -8,7 +8,7 @@ comments: false
 ads: false
 share: true
 image:
-  teaser: /popularmovies/projectView.jpg
+  teaser: /popularmovies/projectView2.jpg
 ---
 
 ###Overview
