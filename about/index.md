@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 
+title: Hello!
 date:
 modified: 
 excerpt: "Learn more about me."
@@ -12,15 +12,12 @@ share: false
 ads: false
 ---
 
-<div markdown="1">
 
 ###Hello!
 
+ 
 
-####I am a learner, a doer, and a believer in humanity. 
-</div>
-
-![](/images/aboutbanner.png)
+![](/images/aboutbanner.PNG)
 
 I'm Sukriti, a computer engineer with a focus on programming and design. I recently received my Bachelor of Science in Computer Engineering from the University of Virginia (UVA). Throughout my computer engineering years at UVA, I worked on a variety of projects from embedded system design to cloud computing and have yet to find my niche. 
 
