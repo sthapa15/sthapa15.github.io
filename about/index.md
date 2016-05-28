@@ -12,11 +12,13 @@ share: false
 ads: false
 ---
 
+<div markdown="1">
 
 ###Hello!
 
 
 ####I am a learner, a doer, and a believer in humanity. 
+</div>
 
 ![](/images/aboutbanner.png)
 
