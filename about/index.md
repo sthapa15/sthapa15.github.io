@@ -13,11 +13,9 @@ ads: false
 ---
 
 
-###Hello!
-
  
 
-![](/images/aboutbanner.PNG)
+![](sthapa15.github.io/images/aboutbanner.PNG)
 
 I'm Sukriti, a computer engineer with a focus on programming and design. I recently received my Bachelor of Science in Computer Engineering from the University of Virginia (UVA). Throughout my computer engineering years at UVA, I worked on a variety of projects from embedded system design to cloud computing and have yet to find my niche. 
 
