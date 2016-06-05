@@ -13,9 +13,6 @@ ads: false
 ---
 
 
-###header
-
-
  
 
 ![](/images/aboutbanner.PNG)
